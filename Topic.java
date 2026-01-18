@@ -45,5 +45,14 @@ public class Topic {
         pubs.remove(a);
     }
 
+    public List<Agent> getSubscribers() {
+        return new ArrayList<>(subs);
+    }
+
+    
+    public List<Agent> getPublishers() {
+        return new ArrayList<>(pubs);
+    }
+
 
 }
